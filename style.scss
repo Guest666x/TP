@@ -5,11 +5,11 @@
 
 .header{
     background-color: rgb(0, 86, 86);
+    align-items: center;
     height: 100px;
+    display:flex;
 }
 
 .class1{
-    justify-content: center;
-    align-items: center;
     display: flex;
 }
