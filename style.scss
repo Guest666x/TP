@@ -102,7 +102,7 @@ body{
 }
  
 .video {
-    border: 10px rgb(184, 255, 255);
+    border: 30px rgb(184, 255, 255);
 }
  
 .block2 {
@@ -159,7 +159,7 @@ body{
 }
  
 .container2 {
-    border-radius: 15px 15px 0 0;
+    border-radius: 15% 15% 0 0;
     justify-content: center;
     display: flex;
 }
@@ -214,7 +214,7 @@ body{
 
 .container3 {
   width: 100%;
-  background-color: #b7e8eb;
+  background-color: #43bdcd;
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
@@ -224,7 +224,7 @@ body{
   font-family: 'Inter', sans-serif;
   font-size: 28px;
   font-weight: 800;
-  color: #164e63;
+  color: white;
   margin-bottom: 40px;
 }
  
@@ -247,7 +247,6 @@ body{
 .card {
   background: white;
   border-radius: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   padding: 35px;
   display: flex;
   justify-content: center;
@@ -264,7 +263,7 @@ body{
 .item p {
   text-align: left;
   font-family: 'Inter', sans-serif;
-  color: #164e63;
+  color: white;
   padding: 0 10px;
 }
  
@@ -276,7 +275,7 @@ body{
 .item p {
   font-size: 16px;
   font-weight: 400;
-  color: #3b9fab;
+  color: white;
   line-height: 1.5rem;
 }
  
