@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
- 
-body{
+
+body {
     background-color: white;
 }
  
@@ -15,8 +15,8 @@ body{
     align-items: center;
     justify-content: space-between;
 }
- 
-.cloche{
+
+.cloche {
     color: white;
     width: 25px;
     height: 15px;
@@ -47,8 +47,8 @@ body{
     height: 60.5px;
     padding-left: 5px;
 }
- 
-.ligneheader{
+
+.ligneheader {
     height: 5px;
     background-color: #1aa6ae;
     display: flex;
@@ -60,7 +60,7 @@ body{
     justify-content: center;
     display: flex;
 }
- 
+
 .bloc1 {
     flex-direction: column;
     color: #c8f6f3;
@@ -69,7 +69,7 @@ body{
     justify-content: center;
     width: 600px;
 }
- 
+
 .bloc1 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
@@ -80,7 +80,7 @@ body{
     justify-content: center;
     display: flex;
 }
- 
+
 .bloc1 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -91,7 +91,7 @@ body{
     justify-content: center;
     display: flex;
 }
- 
+
 .bloc2 {
     flex-direction: column;
     display: flex;
@@ -99,11 +99,11 @@ body{
     justify-content: center;
     width: 600px;
 }
- 
+
 .video {
     border: 10px rgb(184, 255, 255);
 }
- 
+
 .block2 {
     background-color: white;
     border-radius: 20px;
@@ -112,16 +112,16 @@ body{
     max-width: 800px;
     color: #164e63;
 }
- 
+
 .block2 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 800;
-    line-height: 57.6px;    
+    line-height: 57.6px;
     margin-bottom: 20px;
     color: #164e63;
 }
- 
+
 .block2 p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -130,7 +130,7 @@ body{
     margin-bottom: 10px;
     color: #93b5b9;
 }
- 
+
 .block2 .text {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -139,7 +139,7 @@ body{
     margin-bottom: 30px;
     color: #93b5b9;
 }
- 
+
 .quiz-button {
     font-family: 'Inter', sans-serif;
     background-color: #fdbc1b;
@@ -152,11 +152,11 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
- 
+
 .quiz-button:hover {
     background-color: #eab308;
 }
- 
+
 .container2 {
     border-radius: 15px 15px 0 0;
     justify-content: center;
