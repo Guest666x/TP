@@ -173,10 +173,13 @@ body{
 }
 
 .footer {
-    background-color: rgb(0, 86, 86);
-    align-items: center;
-    height: 100px;
+    font-family: 'Inter', sans-serif;
+    background-color: #177079;
+    width: 100%;
+    height: 90px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: white;
 }
 
@@ -186,6 +189,22 @@ body{
     line-height: 28px
 } 
 
+.serré {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.serré1{
+    padding: 10px;
+}
+
+.ligne {
+    background-color: white;
+    width: 3px;
+    margin: 5px;
+}
 @media (max-width: 676px){
     .footer{
         display:none;
