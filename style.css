@@ -235,9 +235,20 @@ body {
     margin-bottom: 60px;
   }
 }
-@media (max-width: 676px) {
+.footer {
+  display: none;
+}
+
+@media (min-width: 676px) {
   .footer {
-    display: none;
+    display: block;
+    font-family: "Inter", sans-serif;
+    background-color: #177079;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 .container3 {
