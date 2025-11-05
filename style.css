@@ -26,10 +26,17 @@ body {
   display: flex;
 }
 
+.icones {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
 .logo {
   width: 101px;
   height: 60.5px;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .ligneheader {
@@ -85,7 +92,7 @@ body {
 }
 
 .video {
-  border: 10px rgb(184, 255, 255);
+  border: 30px rgb(184, 255, 255);
 }
 
 .block2 {
@@ -142,8 +149,7 @@ body {
 }
 
 .container2 {
-  background-color: whitesmoke;
-  border-radius: 15px 15px;
+  border-radius: 15% 15% 0 0;
   justify-content: center;
   display: flex;
 }
@@ -209,6 +215,93 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #3b9fab;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .item {
+    max-width: 320px;
+  }
+  .item h3,
+  .item p {
+    text-align: center;
+  }
+  .container3 h2 {
+    font-size: 38px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 676px) {
+  .footer {
+    display: none;
+  }
+}
+.container3 {
+  width: 100%;
+  background-color: #43bdcd;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.container3 h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 25px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+}
+
+.item h3,
+.item p {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 0 10px;
+}
+
+.item h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
   line-height: 1.5rem;
 }
 
