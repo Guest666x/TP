@@ -8,8 +8,11 @@
   align-items: center;
   height: 100px;
   display: flex;
+  color: white;
 }
 
-.class1 {
+.ligneheader {
+  height: 5px;
+  background-color: greenyellow;
   display: flex;
 }/*# sourceMappingURL=style.css.map */
