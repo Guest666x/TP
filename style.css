@@ -30,6 +30,7 @@ body {
 .container1 {
   background-color: rgb(0, 67, 67);
   flex-direction: row;
+  justify-content: space-around;
   display: flex;
 }
 
