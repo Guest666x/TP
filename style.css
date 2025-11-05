@@ -11,6 +11,12 @@
   color: white;
 }
 
+.logo {
+  width: 101px;
+  height: 60.5px;
+  margin: 10px;
+}
+
 .ligneheader {
   height: 5px;
   background-color: greenyellow;
